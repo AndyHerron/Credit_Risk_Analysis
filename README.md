@@ -47,7 +47,7 @@ BalancedRandomForestClassifier
 EasyEnsembleClassifier
 ![EasyEnsembleClassifier](https://github.com/AndyHerron/Credit_Risk_Analysis/blob/main/screenshots/EEC%20results.png)
 
-##Summary 
+## Summary 
 
 The goal of this exercise is to find a model that helps predict which loans might default (become bad loans.)  The short answer is that none of
 these methods are very good at that.  The ensemble classifiers are better than the over - or undersampling methods.  The Easy Ensemble Classifier method is the 
@@ -56,11 +56,13 @@ It predicted 979 false positives, while correctly predicting 79 true positives. 
 If I was a loan officer and was in charge of finding a method to help predict bad loans, I would keep looking for a better solution than any of these options.
 I would look for a solution that had higher precision and lower sensitivity.
 
-	Predicted True	Predicted False 
+---
+................Predicted True	Predicted False 
 Actually True	TRUE POSITIVE	FALSE NEGATIVE 
 Actually False	FALSE POSITIVE	TRUE NEGATIVE 
 
-Precision = TP/(TP + FP)
+*Precision = TP/(TP + FP)*
+
 Sensitivity is a measure of how many loans which actually are bad were correctly predicted.
 Highly sensitive tests and algorithms tend to be aggressive, as they do a good job of detecting the intended targets, 
 but also risk resulting in a number of false positives. High precision, on the other hand, is usually the result of a 
