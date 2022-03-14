@@ -47,8 +47,8 @@ BalancedRandomForestClassifier
 EasyEnsembleClassifier
 ![EasyEnsembleClassifier](https://github.com/AndyHerron/Credit_Risk_Analysis/blob/main/screenshots/EEC%20results.png)
 
-
 ## Summary 
+
 The goal of this exercise is to find a model that helps predict which loans might default (become bad loans.)  The short answer is that none of
 these methods are very good at that.  The ensemble classifiers are better than the over - or undersampling methods.  The Easy Ensemble Classifier method is the 
 best out of the six, but it's still not good.  It only correctly predicts high risk loans 0.07% of the time - and that's the best of the bunch. 
